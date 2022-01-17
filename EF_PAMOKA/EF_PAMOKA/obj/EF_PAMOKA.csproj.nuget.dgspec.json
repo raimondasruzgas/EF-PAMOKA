@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonas\\source\\repos\\EF_PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj": {}
+    "C:\\Users\\Jonas\\Documents\\GitHub\\EF-PAMOKA\\EF_PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonas\\source\\repos\\EF_PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj": {
+    "C:\\Users\\Jonas\\Documents\\GitHub\\EF-PAMOKA\\EF_PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonas\\source\\repos\\EF_PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj",
+        "projectUniqueName": "C:\\Users\\Jonas\\Documents\\GitHub\\EF-PAMOKA\\EF_PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj",
         "projectName": "EF_PAMOKA",
-        "projectPath": "C:\\Users\\Jonas\\source\\repos\\EF_PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj",
+        "projectPath": "C:\\Users\\Jonas\\Documents\\GitHub\\EF-PAMOKA\\EF_PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj",
         "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonas\\source\\repos\\EF_PAMOKA\\EF_PAMOKA\\obj\\",
+        "outputPath": "C:\\Users\\Jonas\\Documents\\GitHub\\EF-PAMOKA\\EF_PAMOKA\\EF_PAMOKA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.1, )"

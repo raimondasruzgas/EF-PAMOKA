@@ -10,6 +10,7 @@ namespace EF_PAMOKA.Models
         public DbSet<Daiktas> Daiktai { get; set; }
         public DbSet<Automobilis> Automobiliai { get; set; }
         public DbSet<Mopedas> Mopedai { get; set; }
+        public DbSet<Vartotojas> Vartotojai { get; set; }
 
 
     }

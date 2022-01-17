@@ -106,6 +106,31 @@ namespace EF_PAMOKA.Migrations
 
                     b.ToTable("Savininkai");
                 });
+
+            modelBuilder.Entity("EF_PAMOKA.Models.Vartotojas", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Pastas")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Slaptazodis")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Vardas")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Vartotojai");
+                });
 #pragma warning restore 612, 618
         }
     }
