@@ -1,4 +1,5 @@
 using EF_PAMOKA.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,6 +25,7 @@ namespace EF_PAMOKA.Controllers
 
         [HttpGet]
         [Route("/automobiliai")]
+        [Authorize]
         public List<Automobilis> VisiAutomobiliai()
         {
             return _dbContext.Automobiliai.Where(x => x.Marke != "kazkas").ToList();
